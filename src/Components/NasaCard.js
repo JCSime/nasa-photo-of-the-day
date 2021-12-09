@@ -7,6 +7,7 @@ const NasaCard = (props) => {
             <p>{props.data.date}</p>
             <p>{props.data.title}</p>
             <img src={props.data.url} alt="Nasa photo of the day"/>
+            <p>{props.data.explanation}</p>
         </>
     )
 }
